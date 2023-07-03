@@ -1,0 +1,12 @@
+TaskID,Desc,branch,Developer,GITHUB_URL
+1000,Create_README.md_file,main,moranbachner,https://github.com/moranbachner/examrepogad.git
+
+
+
+#לוחצים על הcode 
+#מעתיקים את הקוד
+#הולכים לטרמינל ואז עושים 
+#git clone ואז את הקישור
+# כל מה שאני רוצה להכניס פנימה, אני גוררת או mv 
+#/gitpush.sh https://github.com/moranbachner/examrepogad.git
+# מעלה לי את מה שרציתי 
