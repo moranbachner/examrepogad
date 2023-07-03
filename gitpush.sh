@@ -13,5 +13,6 @@ url=$1
 git commit -m $message
 
 if [ $# != 0 ]; then
+  git remote add moranbachner $url
   git push origin $(git branch --show-current)
 fi
