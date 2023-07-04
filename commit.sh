@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#git add . 
+# כדיי להריץ עושים ./commit.sh אחריי הקומיט את ID,message
 read -p "Enter the CSV filename: " moran.csv
 
 if [ ! -e $filename ]; then
@@ -30,8 +31,9 @@ if [ $TaskID == $TaskID_file ]; then
   git commit -m $messege
     
   if [ $Bool_Push == 'Y' ]; then
-      git remote add ${whoami} $url
+      git remote add moranbachner $url
       git push origin $current_branch
   fi
 fi
 
+#git checkout [branch_name] ככה מחליפים ענף בגיט
